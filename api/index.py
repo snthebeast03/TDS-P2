@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 OPENAI_API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
-API_KEY = os.environ.get("eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZjEwMDE1OTlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.uTR9VdsvciCVXRPPt17VxRA34LK1Xolxom_2QOVMpiA")
+API_KEY = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZjEwMDE1OTlAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.uTR9VdsvciCVXRPPt17VxRA34LK1Xolxom_2QOVMpiA"
 
 HEADERS = {
     "Content-Type": "application/json",
